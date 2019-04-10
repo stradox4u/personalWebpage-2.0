@@ -1,0 +1,140 @@
+body {
+    background-color:gray;
+
+}
+#digi-clock {
+    font-family: serif;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+.segment {
+    width: 25px;
+    background-color: #cc0000;
+    border-radius: 10px;
+    }
+.a {
+    height: 100px;
+    position: absolute;
+    top: -40px;
+    left: 75px;
+    transform: rotate(90deg);
+}
+.b {
+    height: 150px;
+    position: absolute;
+    top: 25px;
+    left: 140px;
+}
+.c {
+    height: 150px;
+    position: absolute;
+    top: 200px;
+    left: 140px;
+}
+.d {
+    height: 100px;
+    position: absolute;
+    top: 315px;
+    left: 75px;
+    transform: rotate(90deg);
+}
+.e {
+    height: 150px;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    }
+.f {
+    height: 150px;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+.g {
+    height: 100px;
+    position: absolute;
+    top: 135px;
+    left: 75px;
+    transform: rotate(90deg);
+}
+#first-digit {
+    position: fixed;
+    top: 100px;
+    left: 25px;
+}
+#second-digit {
+    position: fixed;
+    top: 100px;
+    left: 225px;
+}
+#third-digit {
+    position: fixed;
+    top: 100px;
+    left: 525px;
+}
+#fourth-digit {
+    position: fixed;
+    top: 100px;
+    left: 725px;
+}
+
+#top-1 {
+    position: fixed;
+    top: 150px;
+    left: 440px;
+    background-color: #cc0000;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+#bottom-1 {
+    position: fixed;
+    top: 425px;
+    left: 440px;
+    background-color: #cc0000;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+#second-1 {
+    position: fixed;
+    top: 100px;
+    left: 1025px;
+}
+#second-2 {
+    position: fixed;
+    top: 100px;
+    left: 1225px;
+}
+#top-2 {
+    position: fixed;
+    top: 150px;
+    left: 940px;
+    background-color: #cc0000;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+#bottom-2 {
+    position: fixed;
+    top: 425px;
+    left: 940px;
+    background-color: #cc0000;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+#home-button {
+    border-style: none;
+    background-color: blue;
+    text-decoration: none;
+    padding: 1.2rem;
+    border-radius: 10px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+#home-button:hover {
+    background-color: lightcyan;
+}
